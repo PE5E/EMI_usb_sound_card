@@ -1,0 +1,1 @@
+savedcmd_/mnt/28E45C0F331A3762/GIT/EMI_usb_sound_card/emi_xipmont_source/Module.symvers :=  scripts/mod/modpost -m -a      -o /mnt/28E45C0F331A3762/GIT/EMI_usb_sound_card/emi_xipmont_source/Module.symvers -T /mnt/28E45C0F331A3762/GIT/EMI_usb_sound_card/emi_xipmont_source/modules.order -i Module.symvers -e 

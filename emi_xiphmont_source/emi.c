@@ -18,6 +18,9 @@
 #include <linux/firmware.h>
 #include <linux/ihex.h>
 
+// to prevent compile error (should be in linux/firmware.h):
+#define FW_ACTION_HOTPLUG 1
+
 static int emi62_midi_mode=0;
 module_param(emi62_midi_mode, int, S_IRUGO);
 MODULE_PARM_DESC(emi62_midi_mode,
