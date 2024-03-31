@@ -1,0 +1,1 @@
+cmd_/home/tx/Downloads/emi_xipmont_source/emi.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/tx/Downloads/emi_xipmont_source/emi.ko /home/tx/Downloads/emi_xipmont_source/emi.o /home/tx/Downloads/emi_xipmont_source/emi.mod.o ;  true
